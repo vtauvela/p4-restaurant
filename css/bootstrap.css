@@ -1258,15 +1258,15 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 19px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 16px;
 }
 h5,
 .h5 {
@@ -1278,16 +1278,18 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-family: 'Roboto';
+  font-weight: 300;
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 13px;
   }
 }
 small,
@@ -1327,7 +1329,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: darkred;
 }
 a.text-primary:hover {
   color: #286090;
@@ -1358,7 +1360,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: darkred;
 }
 a.bg-primary:hover {
   background-color: #286090;
